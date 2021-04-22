@@ -1,0 +1,42 @@
+div.person {
+  display: inline-block;
+  background-color: lightgray;
+  box-shadow: #777279 1px 1px;
+  text-align: center;
+  padding: 4px;
+  transition: all 2s;
+}
+div.person :hover {
+  transition: 2s background-color green;
+}
+div.person :hover button {
+  background-color: linen;
+}
+div.person img {
+  border-radius: 50%;
+  padding-bottom: 10px;
+}
+div.person .title {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+div.person .text {
+  padding-bottom: 10px;
+}
+div.person button {
+  background-color: lime;
+  border: none;
+  width: 100%;
+  padding-left: 4px;
+  padding-top: 10px;
+  padding-right: 4px;
+  padding-bottom: 10px;
+  transition: all 2s;
+}
+div.person button:hover {
+  background-color: darkgreen;
+}
+div.person:hover {
+  background-color: darkgreen;
+  transform: scale(1.2);
+}/*# sourceMappingURL=style.css.map */
